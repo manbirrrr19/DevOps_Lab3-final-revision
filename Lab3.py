@@ -13,7 +13,8 @@ def bubble_sort(arr, sorting_order):
     for i in range(n):
         if type(arr_result[i]) != int:
             arr_result = 2
-    if n > 10:
+            return arr_result
+    if n >= 10:
         arr_result = 1
 
     elif n == 0:
